@@ -1,0 +1,119 @@
+.tweet{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+    cursor: pointer;
+    border-bottom: 1px solid #e1e8ed;
+    transition: background 0.45s;
+
+    &:hover{
+        background: #00000008;
+    }
+}
+
+.tweet__header{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.header__info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .450rem;
+}
+
+.header__avatar{
+    width: 3rem;
+    height: 3rem;
+}
+
+.header__info span:not(.info__name){
+    color: #566370b0;
+    font-weight: 400;
+}
+
+.info__name{
+    font-weight: 700;
+    color: #000;
+}
+
+.tweet__content{
+    padding-left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tweet__actions{
+    display: flex;
+    padding-left: 3.5rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.icon::before{
+    content: '';
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: -0.5rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.dots{
+    @media screen and (width <= 1100px){
+        display: none;
+    }
+}
+
+.icon{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: #566370b0;
+    transition: color 0.2s;
+    user-select: none;
+}
+
+#action__comment:hover{
+    color: var(--primary-color);
+}
+
+#action__comment:hover .icon::before{
+    background: #1d37f01a;
+}
+
+#action__retweet:hover, .retweeted{
+    color: #00ba7c;
+}
+
+#action__retweet:hover .icon::before{
+    background: #00ba7c1a;
+}
+
+#action__like:hover, .liked{
+    color: #f91880;
+}
+
+#action__like:hover .icon::before{
+    background: #f918801a;
+}

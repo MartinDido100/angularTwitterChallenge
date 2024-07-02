@@ -1,0 +1,68 @@
+[
+    {
+        "id": "612e2c1b791a220f1495b550",
+        "name": "Sara",
+        "username": "sara_sunshine",
+        "avatar": "Avatar7",
+        "content": "Lucky that your dog enjoyed the rain! Mine gets really scared when it rains.",
+        "date": "2024-05-02",
+        "likes": 5,
+        "retweets": 2,
+        "comments": 1
+    },
+    {
+        "id": "612e2c1b791a220f1495b551",
+        "name": "Luis",
+        "username": "luis_loves_pets",
+        "avatar": "Avatar8",
+        "content": "That sounds fun! Next time you should bring an umbrella, just in case.",
+        "date": "2024-06-03",
+        "likes": 2,
+        "retweets": 1,
+        "comments": 0
+    },
+    {
+        "id": "612e2c1b791a220f1495b552",
+        "name": "Ana",
+        "username": "ana_adventure",
+        "avatar": "Avatar9",
+        "content": "My dog loves playing in the rain too. It's so cute to see them so happy!",
+        "date": "2024-07-04",
+        "likes": 4,
+        "retweets": 0,
+        "comments": 0
+    },
+    {
+        "id": "612e2c1b791a220f1495b553",
+        "name": "Carlos",
+        "username": "carlos_mtb",
+        "avatar": "Avatar10",
+        "content": "Rain makes walks more interesting, right? Cheers!",
+        "date": "2024-08-05",
+        "likes": 1,
+        "retweets": 1,
+        "comments": 0
+    },
+    {
+        "id": "612e2c1b791a220f1495b554",
+        "name": "Maria",
+        "username": "maria_nature",
+        "avatar": "Avatar11",
+        "content": "Glad your dog enjoyed it! Next time, bring a towel to dry him off afterward.",
+        "date": "2024-09-06",
+        "likes": 3,
+        "retweets": 0,
+        "comments": 0
+    },
+    {
+        "id": "612e2c1b791a220f1495b555",
+        "name": "John",
+        "username": "john_outdoors",
+        "avatar": "Avatar12",
+        "content": "Nothing like a good walk in the rain! My dog always jumps in the puddles.",
+        "date": "2024-10-07",
+        "likes": 6,
+        "retweets": 3,
+        "comments": 2
+    }
+]

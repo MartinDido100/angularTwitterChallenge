@@ -1,0 +1,123 @@
+:host{
+    flex-basis: 14rem;
+    flex-grow: 0.5;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.header{
+    padding: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (width <= 1100px){
+        position: fixed;
+        height: unset;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+.header__twitterIcon{
+    cursor: pointer;
+    margin-left: 12px;
+
+    @media screen and (width <= 1100px){
+        display: none;
+    }
+}
+
+.header__content{
+    display: flex;
+    flex-basis: 18.75rem;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    @media screen and (width <= 1100px){
+        flex-direction: row;
+        width: 100%;
+        flex-basis: unset;
+    }
+
+}
+
+.header__nav{
+    width: 100%;
+}
+
+.header__nav ul{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap: 0.21rem;
+
+    @media screen and (width <= 1100px){
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0 0.5rem 0.1rem #0000001a;
+        padding: .4rem 0;
+    }
+}
+
+svg{
+    width: 18px;
+    height: 18px;
+}
+
+.nav__element span{
+    @media screen and (width <= 1100px){
+        display: none;
+    }
+}
+
+.nav__element{
+    cursor: pointer;
+}
+
+.nav__element a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000;
+    gap: 1.17rem;
+    padding: 12px;
+    border-radius: 2rem;
+    transition: background-color 0.13s linear;
+
+    &:hover{
+        background-color: #0f14191a;
+    }
+}
+
+.activeLink{
+    font-weight: 900;
+}
+
+span{
+    font-size: 1.188rem;
+}
+
+.header__tweetButton{
+   padding: 0.52rem 0;
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   border-radius: 2rem;
+   border: none;
+   cursor: pointer;
+   font-weight: 700;
+
+   &:hover{
+       background-color: #1b8dd4;
+   }
+
+   @media screen and (width <= 1100px){
+    display: none;
+   }
+}

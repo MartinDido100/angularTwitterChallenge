@@ -1,0 +1,55 @@
+<aside class="header">
+    <div class="header__content">
+        <div class="header__twitterIcon">
+            <img src="./assets/svg/logo.svg" alt="Twitter Logo">
+        </div>
+    
+        <nav class="header__nav">
+    
+            <ul>
+    
+                <li class="nav__element" (click)="changeActiveLink(sidebarConstants.HOME)">
+                    <a routerLink="/" [class.activeLink]="checkActiveLink(sidebarConstants.HOME)" (click)="backToHome()">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.99998 14.4167V9.83337H12V14.4167C12 14.9209 12.45 15.3334 13 15.3334H16C16.55 15.3334 17 14.9209 17 14.4167V8.00003H18.7C19.16 8.00003 19.38 7.47753 19.03 7.20253L10.67 0.300034C10.29 -0.0116325 9.70998 -0.0116325 9.32998 0.300034L0.969976 7.20253C0.629976 7.47753 0.839976 8.00003 1.29998 8.00003H2.99998V14.4167C2.99998 14.9209 3.44998 15.3334 3.99998 15.3334H6.99998C7.54998 15.3334 7.99998 14.9209 7.99998 14.4167Z" fill="black"/>
+                        </svg>                    
+                        <span>Home</span>
+                    </a>
+                </li>
+    
+                <li class="nav__element" (click)="changeActiveLink(sidebarConstants.EXPLORE)">
+                    <a routerLink="/" [class.activeLink]="checkActiveLink(sidebarConstants.EXPLORE)">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 11H11.71L11.43 10.73C12.41 9.59 13 8.11 13 6.5C13 2.91 10.09 0 6.5 0C2.91 0 0 2.91 0 6.5C0 10.09 2.91 13 6.5 13C8.11 13 9.59 12.41 10.73 11.43L11 11.71V12.5L16 17.49L17.49 16L12.5 11ZM6.5 11C4.01 11 2 8.99 2 6.5C2 4.01 4.01 2 6.5 2C8.99 2 11 4.01 11 6.5C11 8.99 8.99 11 6.5 11Z" fill="black"/>
+                        </svg>               
+                        <span>Explore</span>
+                    </a>
+                </li>
+    
+                <li class="nav__element" (click)="changeActiveLink(sidebarConstants.MESSAGE)">
+                    <a routerLink="/" [class.activeLink]="checkActiveLink(sidebarConstants.MESSAGE)">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM17 14H3C2.45 14 2 13.55 2 13V4L8.94 8.34C9.59 8.75 10.41 8.75 11.06 8.34L18 4V13C18 13.55 17.55 14 17 14ZM10 7L2 2H18L10 7Z" fill="black"/>
+                        </svg>                      
+                        <span>Message</span>
+                    </a>
+                </li>
+    
+                <li class="nav__element" (click)="changeActiveLink(sidebarConstants.PROFILE)">
+                    <a routerLink="/" [class.activeLink]="checkActiveLink(sidebarConstants.PROFILE)">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 1.9C9.16 1.9 10.1 2.84 10.1 4C10.1 5.16 9.16 6.1 8 6.1C6.84 6.1 5.9 5.16 5.9 4C5.9 2.84 6.84 1.9 8 1.9ZM8 10.9C10.97 10.9 14.1 12.36 14.1 13V14.1H1.9V13C1.9 12.36 5.03 10.9 8 10.9ZM8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0ZM8 9C5.33 9 0 10.34 0 13V16H16V13C16 10.34 10.67 9 8 9Z" fill="black"/>
+                        </svg>                              
+                        <span>Profile</span>
+                    </a>
+                </li>
+    
+            </ul>
+        </nav>
+    
+        <button class="header__tweetButton">
+            Tweet
+        </button>
+    </div>
+
+</aside>

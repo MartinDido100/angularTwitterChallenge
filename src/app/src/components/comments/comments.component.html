@@ -1,0 +1,6 @@
+@for (comment of comments; track comment) {
+    <!-- Este if es pq siempre uso los mismos comentarios en todos los tweets (eso no seria asi realmente, cada tweet tendria sus propios comentarios) -->
+    @if (comment.id !== clickedTweet()!.id) {
+        <app-tweet [tweet]="comment"></app-tweet>
+    }
+}

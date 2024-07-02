@@ -1,0 +1,119 @@
+:host{
+    width: 100%;
+    
+    @media screen and (width <= 1100px){
+        padding-top: 5rem;
+    }
+}
+
+.top{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #7b6c6c47;
+}
+
+.top h1{
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: var(--secondary-font);
+    @media screen and (width <= 1100px){
+        display: none;
+    }
+}
+
+.top__selection{
+    display: flex;
+    justify-content: center;
+}
+
+.selection__option{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    transition: background .150s ease-in;
+
+    &:hover{
+        background: #bbc0c3;
+    }
+}
+
+.top__selection span{
+    font-weight: 600;
+}
+
+.underline{
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #1da1f2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hiddenUnderline{
+    display: none;
+}
+
+.myTweet{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #7b6c6c47;
+    gap: 3.438rem;
+    padding: 1rem;
+    @media screen and (width <= 1100px){
+        display: none;
+    }
+}
+
+.myTweet__textarea{
+    display: block;
+    cursor: text;
+    outline: none;
+    padding: 1rem 0;
+    max-width: 29.763rem;
+    flex-grow: 1;
+}
+
+.myTweet__textarea[contenteditable]:empty::before {
+    content: "What's happening?";
+    font-size: 1.125rem;
+    color: #566370;
+}
+
+.myTweet__text{
+    display: flex;
+    gap: .5rem;
+}
+
+.myTweet__actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myTweet__actions svg{
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+.myTweet__actions button{
+    padding: .5rem 1rem;
+    background: #4a99e994;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+}
+
+.myTweet__actions .activeButton{
+    background: var(--primary-color);
+    cursor: pointer;
+}

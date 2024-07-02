@@ -1,0 +1,97 @@
+:host{
+    flex-grow: 0.5;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+
+    @media screen and (width <= 1100px){
+        display: none;
+    }
+
+}
+
+.recomendations{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    gap: 1rem;
+    width: 23.438rem
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.searchBar{
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    border: none;
+    background: #F0F3F4;
+    border-radius: 1.875rem;
+    outline: none;
+}
+
+.recommended{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #F0F3F4;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.recommended h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+
+.recommended__users{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recommended__users li{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.user__info{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.user__name{
+    font-weight: 600;
+}
+
+.user__username{
+    color: #566370b0;
+}
+
+button{
+    background: #000;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.recommended__more{
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    color:#4A99E9
+}

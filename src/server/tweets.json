@@ -1,0 +1,69 @@
+[
+    {
+        "id": "612e2c1b791a220f1495b54a",
+        "name": "Nick",
+        "username": "nikolas99",
+        "avatar": "Avatar1",
+        "content": "Yesterday I took my dog for a walk and suddenly it started to rain :( Luckily my dog enjoyed it",
+        "date": "2024-06-02",
+        "likes": 3,
+        "retweets": 12,
+        "comments": 6
+    },
+    {
+        "id": "612e2c1b791a220f1495b54b",
+        "name": "Mikaela",
+        "username": "mika33",
+        "avatar": "Avatar2",
+        "content": "My outfit today",
+        "date": "2024-12-05",
+        "likes": 10,
+        "retweets": 2,
+        "comments": 1,
+        "image": "Image1"
+    },
+    {
+        "id": "612e2c1b791a220f1495b54c",
+        "name": "Joseph",
+        "username": "jojo44",
+        "avatar": "Avatar3",
+        "content": "Did anyone watch yesterday's game? :)))))",
+        "date": "2024-07-07",
+        "likes": 5,
+        "retweets": 1,
+        "comments": 3
+    },
+    {
+        "id": "612e2c1b791a220f1495b54d",
+        "name": "Laura",
+        "username": "laurab90",
+        "avatar": "Avatar4",
+        "content": "Just finished reading a fantastic book! Highly recommend it to everyone.",
+        "date": "2024-02-08",
+        "likes": 15,
+        "retweets": 3,
+        "comments": 4
+    },
+    {
+        "id": "612e2c1b791a220f1495b54e",
+        "name": "Carlos",
+        "username": "carlosg22",
+        "avatar": "Avatar5",
+        "content": "Had the best coffee at this new cafe in town. You all should try it!",
+        "date": "2024-01-09",
+        "likes": 8,
+        "retweets": 2,
+        "comments": 2
+    },
+    {
+        "id": "612e2c1b791a220f1495b54f",
+        "name": "Sophie",
+        "username": "sophie_k",
+        "avatar": "Avatar6",
+        "content": "Excited to announce that I'll be speaking at the tech conference next month!",
+        "date": "2024-10-10",
+        "likes": 20,
+        "retweets": 5,
+        "comments": 10
+    }
+]

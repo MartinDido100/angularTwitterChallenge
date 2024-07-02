@@ -1,0 +1,21 @@
+<section class="recomendations" [class.hidden]="clickedTweet()">
+        <input type="text" placeholder="Search" class="searchBar" name="searchbar">
+    
+        <div class="recommended">
+            <h3>Who to follow</h3>
+            <ul class="recommended__users">
+                @for(n of [13,14,15,16,17];track n){
+                    <li>
+                        <img class="user__avatar" [src]="getAvatar('Avatar'+n)">
+                        <div class="user__info">
+                            <span class="user__name">Other Username</span>
+                            <span class="user__username">&#64;OtherUsername</span>
+                        </div>
+                        <div class="spacer"></div>
+                        <button>Follow</button>
+                    </li>
+                }
+                <span class="recommended__more">Show more</span>
+            </ul>
+        </div>
+</section>

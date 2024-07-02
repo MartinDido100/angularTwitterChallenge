@@ -1,0 +1,15 @@
+<main class="main">
+    <div class="responsiveHeader">
+        <div class="responsive__avatar">
+            <img [src]="getAvatar('myAvatar')" alt="Avatar">
+        </div>
+        <div class="responsive__logo">
+            <img src="./assets/svg/logo.svg" alt="Logo">
+        </div>
+    </div>
+    @if(!clickedTweet()){
+        <app-home></app-home>
+    }@else{
+        <app-tweet-detail></app-tweet-detail>
+    }
+</main>
